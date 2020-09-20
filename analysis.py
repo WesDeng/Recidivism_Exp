@@ -49,7 +49,7 @@ def process_code(rawcode, text, code_replace_dict=None):
 
     rawcode_sep = rawcode.split(":")
     # print(rawcode_sep)
-   
+
     num_parts = len(rawcode_sep)
     # print(num_parts)
 
@@ -59,34 +59,34 @@ def process_code(rawcode, text, code_replace_dict=None):
         if rawcode_sep[0].find(";") == -1:
             output_list.append((rawcode, text))
             return output_list
-        
+
         else:
             return_list = []
             for item in strip_list(rawcode_sep[0].split(";")):
                 return_list.append((item, text))
             return return_list
-    
+
     if num_parts == 2:
         rawcode_sep = strip_list(rawcode_sep)
-        
+
         if rawcode_sep[1].find(";") == -1:
             output_list.append((rawcode, text))
             return output_list
-        
+
         else:
             return_list = []
             for item in strip_list(rawcode_sep[1].split(";")):
                 code_concat = rawcode_sep[0] + ": " + item
                 return_list.append((code_concat, text))
             return return_list
-        
+
     if num_parts == 3:
-        
+
         rawcode_sep = strip_list(rawcode_sep)
         main_code = rawcode_sep[0]
         subcode = rawcode_sep[1]
         sub_subcode = rawcode_sep[2]
-        
+
         if sub_subcode.find(";") == -1:
             output_list.append((rawcode, text))
             return output_list
@@ -130,12 +130,12 @@ def get_comments(docxFileName, codes_df, code_replace_dict=None):
   doc = etree.XML(docXML)
   if 'word/comments.xml' in nl:
     commentsXML = docxZip.read('word/comments.xml')
-  else: 
+  else:
     return codes_df
   et = etree.XML(commentsXML)
   comments = et.xpath('//w:comment',namespaces=ooXMLns)
 
-  
+
 
   for c in comments:
 
@@ -166,16 +166,16 @@ def get_comments(docxFileName, codes_df, code_replace_dict=None):
       if process_result is not None:
         for result in process_result:
           codes_dict = {'code':result[0], 'name':name, 'text':result[1], "coder":comment_author, 'comment_id': comment_id}
-          codes_df = codes_df.append(pd.Series(codes_dict), ignore_index=True)  
-            
+          codes_df = codes_df.append(pd.Series(codes_dict), ignore_index=True)
+
   for row, items in codes_df.iterrows():
       #print(items['code'].split(":"))
       count = 0
-      
+
       code_split = items['code'].split(":")
-      
+
       for i in code_split:
-          i = i.lstrip() 
+          i = i.lstrip()
           if count == 0:
               codes_df.ix[row]['code'] = i
           elif count == 1:
@@ -189,11 +189,11 @@ def get_comments(docxFileName, codes_df, code_replace_dict=None):
   codes_df = codes_df.replace(np.nan, "")
   return codes_df
   #print(codes_df)
-  
+
 
 
 codes_df = pd.DataFrame(columns=["code","subcode","sub_subcode", "name", "text", "coder", "comment_id"])
-files = glob.glob('./[!~]*.docx')
+files = glob.glob('./Copy of Room 13.docx')
 #files = glob.glob('./k*.docx')
 for fi in files:
   if 'Workshop' in fi:
@@ -204,4 +204,3 @@ for fi in files:
 codes_df = codes_df.set_index(['code', 'subcode', 'sub_subcode', 'text','name', 'coder']).sort_index()
 
 codes_df.to_csv('outputworkshps.csv', encoding='utf-8-sig')
-
