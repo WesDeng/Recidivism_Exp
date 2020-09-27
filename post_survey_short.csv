@@ -1,0 +1,57 @@
+,Username,post_metric,3a,3b,3c,3d,e1,e2,e3,e4,e5,e7,e8,e9,e10
+0,cheukyil@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,5,5,6,6,5,3,5,5,4,7,5,6,6
+1,claraw@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,5,4,6,6,5,3,5,6,5,6,6,6,6
+2,kwang2@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate,6,6,6,6,7,3,4,7,3,5,4,3,7
+3,sanilsar@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Negative Rate;Decreasing disparity between demographics,7,4,4,4,5,3,4,4,4,6,6,6,6
+4,njwong@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,5,2,5,6,6,3,6,6,2,6,4,5,5
+5,ryankenn@andrew.cmu.edu,Increasing True Positive Rate;Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,5,5,5,5,6,3,5,6,3,6,7,7,6
+6,azizg@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Decreasing disparity between demographics,5,6,6,6,6,5,4,5,2,5,4,3,6
+7,amfang@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,7,7,7,7,7,3,7,7,2,3,2,6,7
+8,jeongkes@andrew.cmu.edu,Decreasing False Negative Rate,5,6,4,2,5,3,2,3,5,2,1,5,6
+9,sjang1@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,6,7,6,6,5,3,4,4,2,3,3,3,3
+10,ddomalik@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,5,5,5,5,6,3,3,3,2,5,2,5,6
+11,lmchong@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Decreasing disparity between demographics,7,7,7,7,7,3,4,5,2,6,6,3,6
+12,awilbour@andrew.cmu.edu,Decreasing False Negative Rate;Decreasing disparity between demographics,7,7,7,7,7,3,6,5,2,7,7,7,7
+13,pkhadpe@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,6,6,6,6,6,3,5,5,3,5,5,6,6
+14,vkamath@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Increasing Accuracy;Decreasing disparity between demographics;Others,6,5,6,7,5,3,5,5,1,4,5,6,7
+15,dgajaraw@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,7,7,7,7,7,3,7,7,5,7,7,7,7
+16,gzhao@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing disparity between demographics,5,6,6,6,6,3,6,6,5,5,5,6,6
+17,charleyz@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy,3,7,5,3,7,3,6,6,3,7,7,7,7
+18,bsheng2@andrew.cmu.edu,Increasing True Positive Rate;Decreasing False Positive Rate,6,7,6,7,7,3,6,5,4,6,7,7,7
+19,pvichiva@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,4,4,7,7,7,3,7,7,7,7,7,7,7
+20,roshnis@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics;Others,1,2,3,3,2,3,3,3,4,3,4,5,7
+21,ysato@andrew.cmu.edu,Increasing True Positive Rate;Decreasing False Negative Rate,6,6,6,6,7,3,5,6,4,7,7,4,7
+22,cleelama@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,6,7,5,6,5,3,3,6,5,7,5,7,6
+23,sanag@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,7,7,7,7,7,3,7,7,3,7,5,7,7
+24,yihaop@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,5,5,6,6,5,3,6,6,5,6,5,5,6
+25,laiw2@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,5,6,6,6,6,3,4,6,4,6,5,5,6
+26,jaclyny@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,6,6,7,6,5,3,7,7,2,6,4,4,7
+27,mingzhe2@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics;Others,7,7,7,7,7,7,7,7,4,7,7,7,7
+28,hsienhuh@andrew.cmu.edu,Decreasing False Negative Rate,4,4,4,4,4,4,4,4,4,4,4,4,4
+29,yiweih@andrew.cmu.edu,Decreasing disparity between demographics;Others,4,3,3,5,5,3,2,2,3,4,5,5,5
+30,tarikaj@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Decreasing disparity between demographics,5,7,7,7,7,3,7,7,1,7,7,5,7
+31,jx2@andrew.cmu.edu,Decreasing False Negative Rate,6,6,7,2,7,3,4,2,5,3,3,6,6
+32,aroviros@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,3,6,4,6,5,3,5,6,3,5,6,7,7
+33,liangzhl@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy,5,3,6,4,3,3,5,6,5,6,5,6,3
+34,raajatg@andrew.cmu.edu,Increasing Accuracy,7,7,7,7,6,3,7,7,4,7,7,7,4
+35,ndhuliya@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,5,4,6,5,5,3,4,5,4,4,6,6,6
+36,araina@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,5,5,5,6,6,3,7,7,4,5,6,4,6
+37,mnaidu@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,4,5,4,7,7,3,4,4,5,6,6,4,7
+38,mkomar@andrew.cmu.edu,Decreasing False Negative Rate,5,6,5,3,6,1,6,6,5,7,7,7,7
+39,changc@andrew.cmu.edu,Increasing True Positive Rate;Decreasing False Negative Rate;Increasing Accuracy,4,4,4,6,5,6,4,5,4,5,1,5,5
+40,jdiei@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy,6,6,6,6,6,3,5,5,3,6,6,4,7
+41,yunqiaox@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,4,5,6,6,6,3,4,4,3,6,6,7,5
+42,abonilla@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy,7,7,7,5,5,3,7,7,4,7,6,4,7
+43,nehalg@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,1,1,1,1,5,3,7,6,4,1,1,2,7
+44,yuhanliu@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,6,6,7,5,6,3,7,7,5,6,7,6,7
+45,mhasey@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Increasing Accuracy,6,6,6,6,6,3,6,6,4,6,6,5,7
+46,ashashki@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,7,6,6,7,6,3,6,6,4,7,6,7,7
+47,pkoppol@andrew.cmu.edu,Increasing True Positive Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,7,7,7,7,7,3,7,5,3,7,7,5,7
+48,agyang@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy,5,5,5,5,7,3,5,6,4,5,5,6,7
+49,yunmino@andrew.cmu.edu,Increasing True Positive Rate;Increasing True Negative Rate;Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy,6,6,6,6,6,3,5,6,5,7,7,7,6
+50,yuxilee@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,7,6,5,7,7,6,7,7,5,5,5,7,7
+51,chenxuli@andrew.cmu.edu,Increasing Accuracy;Decreasing disparity between demographics,7,7,7,7,7,3,6,7,5,7,6,7,7
+52,hyunm@andrew.cmu.edu,Others,6,6,6,6,7,3,1,1,1,5,4,1,6
+53,vzz@andrew.cmu.edu,Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,1,7,1,7,7,3,6,5,4,6,4,6,7
+54,xiaoyinm@andrew.cmu.edu,Increasing True Positive Rate;Decreasing False Positive Rate;Increasing Accuracy;Decreasing disparity between demographics,7,7,7,7,7,3,7,7,5,5,5,7,7
+55,acfriedm@andrew.cmu.edu,Decreasing False Positive Rate;Decreasing False Negative Rate;Increasing Accuracy;Decreasing disparity between demographics,5,5,5,5,4,3,4,4,2,3,3,4,6
