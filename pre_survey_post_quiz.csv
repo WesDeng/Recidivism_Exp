@@ -1,0 +1,57 @@
+,Username,Full Name,Persona,ind_1,ind_2,pre_metric,post_correct,post_score
+0,amfang@andrew.cmu.edu,Anna Fang,Fairness Advocate,Model_2,Model_4,Maximizing Accuracy,6,7.0
+1,jdiei@andrew.cmu.edu,JM Diei,Defendent,Model_5,Model_7,"Minimizing False Positive Rate,Maximizing Accuracy",7,8.0
+2,ysato@andrew.cmu.edu,Yumi Sato,Community Member,Model_8,Model_2,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Minimizing False Negative Rate,Minimizing False Positive Rate,Maximizing Accuracy",7,8.0
+3,ashashki@andrew.cmu.edu,Alice Shashkina Shashkina,Judge,Model_3,Model_7,Maximizing True Positive Rate,5,7.0
+4,cheukyil@andrew.cmu.edu,Phipson Lee,Fairness Advocate,Model_4,Model_4,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Others,Maximizing Accuracy",6,6.5
+5,xinrany@andrew.cmu.edu,Anna Yuan,Community Member,Model_8,Model_2,Others,7,8.0
+6,ryankenn@andrew.cmu.edu,Ryan Kenny,Defendent,Model_7,Model_3,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing Accuracy",6,6.5
+7,vzz@andrew.cmu.edu,Vicky Zeng,Defendent,Model_5,Model_7,"Minimizing False Positive Rate,Maximizing True Positive Rate",7,8.0
+8,jeongkes@andrew.cmu.edu,Jeongkeun Shin,,Model_6,Model_2,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",6,7.0
+9,kwang2@andrew.cmu.edu,Kevin Wang,Fairness Advocate,Model_2,Model_4,"Minimizing False Positive Rate,Minimizing False Negative Rate,Maximizing True Negative Rate,Maximizing True Positive Rate",7,8.0
+10,aroviros@andrew.cmu.edu,Alejandra Rovirosa,,Model_3,Model_1,,4,5.5
+11,njwong@andrew.cmu.edu,Sarah Wong,,Model_2,Model_8,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing Accuracy",6,5.5
+12,ddomalik@andrew.cmu.edu,David Domalik,,Model_7,Model_3,"Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",7,7.5
+13,vkamath@andrew.cmu.edu,Vikram Cannanure,,Model_5,Model_3,"Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Others",5,6.0
+14,mingzhe2@andrew.cmu.edu,Franklin Li,Judge,Model_3,Model_7,Maximizing Accuracy,5,6.33
+15,sjang1@andrew.cmu.edu,Sarah Jang,Defendent,Model_7,Model_5,"Minimizing False Negative Rate,Maximizing Accuracy,Minimizing False Positive Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing True Positive Rate",6,6.5
+16,lmchong@andrew.cmu.edu,Leah Chong,,Model_7,Model_5,Maximizing Accuracy,7,8.0
+17,mkomar@andrew.cmu.edu,Matthew Komar,,Model_2,Model_8,"Minimizing False Negative Rate,Maximizing True Positive Rate",4,5.0
+18,xiaoyinm@andrew.cmu.edu,Xiaoying Meng,,Model_7,Model_5,"Maximizing Accuracy,Minimizing False Positive Rate,Maximizing True Positive Rate",6,6.5
+19,raajatg@andrew.cmu.edu,Raajat Gupta,Judge,Model_3,Model_7,Maximizing Accuracy,6,8.0
+20,cleelama@andrew.cmu.edu,Chanaradee Leelamanthep,Defendent,Model_5,Model_7,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",7,8.0
+21,pvichiva@andrew.cmu.edu,Poon Vichivanives,,Model_3,Model_7,"Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",7,7.5
+22,awilbour@andrew.cmu.edu,Andy Wilbourn Wilbourn,Judge,Model_3,Model_1,"Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing True Positive Rate",5,5.0
+23,jaclyny@andrew.cmu.edu,Jaclyn Yang,Community Member,Model_8,Model_2,"Minimizing False Positive Rate,Minimizing False Negative Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing Accuracy",6,6.0
+24,abonilla@andrew.cmu.edu,Angelica Bonilla,Community Member,Model_8,Model_2,"Maximizing True Positive Rate,Maximizing Accuracy,Minimizing False Positive Rate,Minimizing False Negative Rate,Maximizing True Negative Rate",6,6.5
+25,yihaop@cs.cmu.edu,Yi-Hao Peng,Community Member,Model_8,Model_2,"Maximizing Accuracy,Minimizing False Negative Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Minimizing False Positive Rate",6,5.666666666666668
+26,claraw@andrew.cmu.edu,Clara Wang,,Model_1,Model_4,Maximizing Accuracy,7,8.0
+27,jpaniagu@andrew.cmu.edu,Juan Paniagua,,Model_7,Model_5,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",6,7.0
+28,yunqiaox@tepper.cmu.edu,Oliver Xu Xu,,Model_3,Model_7,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing Accuracy",7,8.0
+29,yuhanliu@andrew.cmu.edu,Yuhan Liu,Fairness Advocate,Model_2,Model_4,,6,7.0
+30,liangzhl@andrew.cmu.edu,Liangzheng Luo,,Model_4,Model_3,"Minimizing False Positive Rate,Minimizing False Negative Rate,Maximizing Accuracy",6,7.0
+31,sanag@andrew.cmu.edu,Sana Gill,Community Member,Model_8,Model_2,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing Accuracy",7,7.0
+32,gzhao@andrew.cmu.edu,Guodong Zhao,Fairness Advocate,Model_2,Model_5,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing Accuracy",7,8.0
+33,sanilsar@andrew.cmu.edu,Sanil Sanjay Rao,Judge,Model_3,Model_2,,6,6.0
+34,dgajaraw@andrew.cmu.edu,Dillan Gajarawala,Defendent,Model_5,Model_7,"Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",6,7.0
+35,ndhuliya@andrew.cmu.edu,Nivedita Dhuliya,,Model_3,Model_1,"Maximizing Accuracy,Minimizing False Negative Rate,Maximizing True Positive Rate,Minimizing False Positive Rate",4,4.0
+36,rdparikh@andrew.cmu.edu,Rushin Parikh,,Model_4,Model_8,"Maximizing True Positive Rate,Minimizing False Negative Rate,Minimizing False Positive Rate,Maximizing Accuracy,Maximizing True Negative Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",4,3.6666666666666665
+37,pkhadpe@andrew.cmu.edu,Pranav Khadpe,,Model_4,Model_6,"Maximizing True Positive Rate,Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Maximizing True Negative Rate,Minimizing False Negative Rate,Minimizing False Positive Rate",5,7.0
+38,bsheng2@andrew.cmu.edu,Bingjie Sheng,,Model_2,Model_5,"Maximizing True Positive Rate,Minimizing False Negative Rate,Maximizing Accuracy,Minimizing False Positive Rate",6,7.0
+39,mnaidu@tepper.cmu.edu,Mallika Naidu,Fairness Advocate,Model_2,Model_4,"Maximizing Accuracy,Minimizing False Negative Rate",6,8.0
+40,mpeswani@andrew.cmu.edu,Meghna Peswani,Community Member,Model_8,Model_2,"Maximizing True Positive Rate,Minimizing False Positive Rate,Maximizing Accuracy,Maximizing True Negative Rate,Minimizing False Negative Rate",5,5.5
+41,charleyz@andrew.cmu.edu,Charley Zhao,,Model_4,Model_1,Maximizing Accuracy,5,5.666666666666668
+42,jx2@andrew.cmu.edu,Jingtao Xu,,Model_3,Model_4,Minimizing False Positive Rate,6,7.0
+43,tarikaj@andrew.cmu.edu,Tarika Jain,,Model_8,Model_2,"Maximizing Accuracy,Minimizing False Positive Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",4,3.5
+44,laiw2@andrew.cmu.edu,Lai Wei,,Model_4,Model_3,,7,7.0
+45,chuqiaos@andrew.cmu.edu,Chuqiao Shi,Judge,Model_3,Model_7,,6,7.0
+46,mhasey@andrew.cmu.edu,Michael Hasey,,Model_3,Model_1,,6,7.0
+47,yiweih@andrew.cmu.edu,Yiwei Huang,,Model_3,Model_5,"Minimizing False Positive Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",5,5.0
+48,changc@andrew.cmu.edu,Chang Chu,Fairness Advocate,Model_2,Model_4,Maximizing Accuracy,5,6.0
+49,roshnis@tepper.cmu.edu,Roshni Sachdeva,,Model_5,Model_7,"Maximizing True Positive Rate,Maximizing Accuracy,Minimizing False Positive Rate,Minimizing False Negative Rate,Maximizing True Negative Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",6,7.0
+50,acfriedm@andrew.cmu.edu,Alia Friedman,,Model_3,Model_4,"Maximizing Accuracy,Minimizing False Negative Rate,Minimizing False Positive Rate",6,7.0
+51,hyunm@andrew.cmu.edu,Hannah Moon,Judge,Model_3,Model_7,Maximizing True Positive Rate,5,5.17
+52,araina@andrew.cmu.edu,Ayush Raina,Defendent,Model_7,Model_3,"Maximizing Accuracy,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",6,6.5
+53,chenxuli@andrew.cmu.edu,Evelyn Li,Fairness Advocate,Model_2,Model_4,"Maximizing True Positive Rate,Maximizing Accuracy",7,8.0
+54,yuxilee@andrew.cmu.edu,Yu Xi Lee,Judge,Model_3,Model_7,"Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics,Minimizing False Positive Rate,Maximizing Accuracy,Minimizing False Negative Rate",5,7.0
+55,agyang@andrew.cmu.edu,Angela Yang,Community Member,Model_2,Model_8,"Minimizing False Positive Rate,Minimizing disparity (of FPRs\, FNRs\, accuracy rates) between demographics",7,8.0
