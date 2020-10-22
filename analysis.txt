@@ -1,0 +1,130 @@
+Q1.2
+
+applications.group("Day of Week").barh('Day of Week')
+
+Q1.3
+
+applications.group('Applicant').sort('count', descending=True).column('Applicant').item(0)
+
+Q1.4
+
+applications.group('Day of Week', np.mean).select('Day of Week', 'Latitude')
+
+applications.select('Day of Week', ''Latitude'').group('Day of Week', np.mean)
+
+Q1.5
+
+applications.group('Day of Week').where('Applicant', are.equal_to('Snarf')).select('Applicant',Day of Week')
+
+
+Q1.6
+
+applications.group('Applicant')
+
+Q.17
+
+applications.where('Start Time', are.below(14)).pivot('Day of Week', 'Hot Dishes', 'Latitude', np.mean)
+
+Q1.8
+
+applications.group(make_array('Applicant', 'Day of Week').
+Q1.9
+
+applications.join('Applicant', 'Applicant Name', phone_tbl)
+
+Q1.10
+
+earliest_close = applications.group('Applicant', 'Day of Week', 'End Time', np.min)
+decisions_arr = earliest_close.apply(should_accept, 'mon_end', 'thu_end', 'sat_end')
+result = earlist_close.select('Applicant').where('Decision', are.equal_to(True))
+
+
+
+
+Q2.
+
+
+
+
+Q4.1
+
+np.mean(arr)
+
+4.2
+
+89400*1.12
+
+4.3
+
+min(x, y)
+
+4.4
+
+abs(x - y)
+
+4.5
+
+make_array(6, 9, 15, 12)
+
+4.6
+
+np.array([i**2 for i in np.arange(1, 101)])
+
+4.7
+
+sim_results = make_array()
+
+for i in np.arrange(8000):
+
+	stat = simulate_once()
+	sim_results = np.append(sim_results, stat)
+
+4.8
+
+for a number x, return all the natural numbers less than x such that those numbers' square is less than x
+
+
+
+8.4
+
+world_pop = make_array(0.3, 0.4, 0.25, 0.05)
+
+
+simulated_stats = make_array()
+for i in np.arrane(50000):
+	one_sample = np.random.choice( )
+	test_stat = test_statistic (world_pop, one_sample)
+	simulated_stats = np.append(simulated_stats, test_stat)
+
+
+p_value = np.count_nonzero(simulated_stats >= obs_stat) / 5000
+p_value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
