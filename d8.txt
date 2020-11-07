@@ -1,5 +1,12 @@
 
 
+Niloufar Salehi. 
+
+Kimiko Ryokai. Associate Professor. kimiko@berkeley.edu. 4152691513
+
+Eric Paulos. Associate Professor
+
+
 
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
 original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels)
