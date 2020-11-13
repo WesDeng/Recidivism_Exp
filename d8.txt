@@ -1,10 +1,10 @@
 
 
-Niloufar Salehi. Assistant Professor. nsalehi@berkeley.edu. 
+Niloufar Salehi. Assistant Professor. nsalehi@berkeley.edu. 6509969470
 
 Kimiko Ryokai. Associate Professor. kimiko@berkeley.edu. 4152691513
 
-Eric Paulos. Associate Professor. paulos@berkeley.edu. 
+Eric Paulos. Associate Professor. paulos@berkeley.edu.  TBD
 
 
 CMU: 
@@ -12,7 +12,7 @@ CMU:
 
 UW: Dhw#6211815. art. 
 
-
+Cornell: ApplyWeb.
 
 
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
