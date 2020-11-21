@@ -1,10 +1,12 @@
 
+/Users/wesley/HAII_Exp/d8.txt
+University of California, Berkeley
 
 Niloufar Salehi. Assistant Professor. nsalehi@berkeley.edu. 6509969470
 
 Kimiko Ryokai. Associate Professor. kimiko@berkeley.edu. 4152691513
 
-Eric Paulos. Associate Professor. paulos@berkeley.edu.  TBD
+Eric Paulos. Associate Professor. paulos@berkeley.edu.  4156997558
 
 
 
@@ -12,13 +14,15 @@ Eric Paulos. Associate Professor. paulos@berkeley.edu.  TBD
 
 CMU: 
 
-tmp-dengh
-T@rtan_Onbo@rding20
+
+
 
 
 UW: Dhw#6211815. art. 
 
 Cornell: ApplyWeb.
+
+U Chicago: Dhw#3032999829
 
 
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
