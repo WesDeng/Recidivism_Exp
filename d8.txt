@@ -9,14 +9,7 @@ Kimiko Ryokai. Associate Professor. kimiko@berkeley.edu. 4152691513
 Eric Paulos. Associate Professor. paulos@berkeley.edu.  4156997558
 
 
-
-
-
 CMU: 
-
-
-
-
 
 UW: Dhw#6211815. art. 
 
@@ -24,6 +17,8 @@ Cornell: ApplyWeb.
 
 U Chicago: Dhw#3032999829
 
+
+p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/100
 
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
 original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels)
@@ -41,6 +36,6 @@ def complete_test(t):
         one_simulated_statistics = compute_hazard_difference(summed_hazard)
         null_rate_difference = np.append(null_rate_difference, one_simulated_statistics)
         
-    p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/100
+
     
     return p_value
