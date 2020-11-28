@@ -23,24 +23,29 @@ Honor Program, EECS, UC Berkeley.
 
  ----------------------------------------------------------------------------------------------------------------------------------------Personal laughter archives: reflection through visualization and interaction.
 Kimiko Ryokai, Julia Park, Wesley H. Deng. UbiComp 2020. Adjunct Proceedings;
+https://people.ischool.berkeley.edu/~kimiko/papers/Ubicomp2020.Laughter.Archives.Ryokai.pdf
 
 Value Cards: An Educational Toolkit for Teaching Social Impacts of Machine Learning through Deliberation. 
 Hong Shen, Wesley H. Deng, Aditi Chattopadhyay, Zhiwei Steven Wu, Xu Wang, Haiyi Zhu.
-FAccT 2021. In Submission;
+FAccT 2021. In Submission.
+https://arxiv.org/pdf/2010.11411.pdf;
 
 Robust Laughter Detection In Noisy Environments. 
 Jon Gillick, Wesley H. Deng, Kimiko Ryokai, David Bamman.ICASSP 2021. In Submission.
 
  ----------------------------------------------------------------------------------------------------------------------------------------
-Berkeley, Information School. 
-Stanford, CS. 
-Cornell, Information School.
-UW, CSE, Information School, HCDE. 
-CMU HCII. Societal Computing. Machine Learning.
-Havard, CS. 
-University of Michigan, CSE.
-Princeton, CS.
-University of Chicago, CS.
+Berkeley, Information School;
+Stanford, CS;
+Cornell, Information School;
+UW, CSE, Information School, HCDE;
+CMU HCII. Societal Computing. Machine Learning;
+Havard, CS;
+University of Michigan, CSE;
+Princeton, CS;
+University of Chicago, CS;
+
+
+Berkeley; CMU; MIT; UW; UCSD; Cornell; U Mich; UIUC; Harvard; NYU; UT Austin; U Chicago.
 
  -------------------------------------------------------------------------------------------------------
 
