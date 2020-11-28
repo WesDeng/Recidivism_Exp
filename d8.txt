@@ -1,6 +1,8 @@
 
-/Users/wesley/HAII_Exp/d8.txt
+
 University of California, Berkeley
+
+ ----------------------------------------------------------------------------------------------------------------------------------------
 
 Niloufar Salehi. Assistant Professor. nsalehi@berkeley.edu. 6509969470
 
@@ -11,14 +13,37 @@ Eric Paulos. Associate Professor. paulos@berkeley.edu.  4156997558
 102 S Hall, Berkeley, CA 94720
 2626 Hearst Ave, Berkeley, CA 94720
 
-Recommendation request from Wesley Hanwen Deng.
+ ----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Highest Honor (summa cum laude), UC Berkeley.
+Honor Program, EECS, UC Berkeley.
+
+ ----------------------------------------------------------------------------------------------------------------------------------------Personal laughter archives: reflection through visualization and interaction.
+Kimiko Ryokai, Julia Park, Wesley H. Deng. UbiComp 2020. 
+
+Value Cards: An Educational Toolkit for Teaching Social Impacts of Machine Learning through Deliberation. FAccT 2021. In Submission.
+
+Robust Laughter Detection In Noisy Environments. ICASSP 2021. In Submission.
+
+ ----------------------------------------------------------------------------------------------------------------------------------------
+Berkeley, Information School. 
+Stanford, CS. 
+Cornell, Information School.
+UW, CSE, Information School, HCDE. 
+CMU HCII. Societal Computing. Machine Learning.
+Havard, CS. 
+University of Michigan, CSE.
+Princeton, CS.
+University of Chicago, CS.
+
+ -------------------------------------------------------------------------------------------------------
+
+
 
 CMU: 
-
 UW: Dhw#6211815. art. 
-
 Cornell: ApplyWeb.
-
 U Chicago: Dhw#3032999829
 
 
