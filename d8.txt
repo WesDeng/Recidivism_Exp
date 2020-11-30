@@ -55,6 +55,7 @@ CMU:
 UW: Dhw#6211815. art. 
 Cornell: ApplyWeb.
 U Chicago: Dhw#3032999829
+UCSD: 
 
 
 p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/100
