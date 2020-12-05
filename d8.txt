@@ -21,6 +21,8 @@ Eric Paulos. Associate Professor. paulos@berkeley.edu.  4156997558
 Highest Honor (summa cum laude), UC Berkeley.
 Honor Program, EECS, UC Berkeley.
 
+https://www.wesleydeng.com/design
+
  ----------------------------------------------------------------------------------------------------------------------------------------Personal laughter archives: reflection through visualization and interaction.
 Kimiko Ryokai, Julia Park, Wesley H. Deng. UbiComp 2020. Adjunct Proceedings;
 https://people.ischool.berkeley.edu/~kimiko/papers/Ubicomp2020.Laughter.Archives.Ryokai.pdf
