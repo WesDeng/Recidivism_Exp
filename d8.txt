@@ -62,6 +62,8 @@ UCSD:
 
 p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/100
 
+
+
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
 original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels)
 
