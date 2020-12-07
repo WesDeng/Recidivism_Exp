@@ -17,7 +17,6 @@ Eric Paulos. Associate Professor. paulos@berkeley.edu.  4156997558
 
  ----------------------------------------------------------------------------------------------------------------------------------------
 
-
 Highest Honor (summa cum laude), UC Berkeley.
 Honor Program, EECS, UC Berkeley.
 
@@ -48,10 +47,7 @@ University of Chicago, CS;
 
 
 Berkeley; CMU; MIT; UW; UCSD; Cornell; U Mich; UIUC; Harvard; NYU; UT Austin; U Chicago.
-
  -------------------------------------------------------------------------------------------------------
-
-
 
 CMU: 
 UW: Dhw#6211815. art. 
@@ -60,8 +56,7 @@ U Chicago: Dhw#3032999829
 UCSD: 
 
 
-p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/100
-
+p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/tbl.num_rows
 
 
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
