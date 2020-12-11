@@ -1,0 +1,26 @@
+# Selecting rows based on columns.
+
+us_pop.where('SEX', are.equal_to(0)).where('AGE', are.between(97, 101))
+
+p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/tbl.num_rows
+
+
+shuffled_labels = tbl.sample(with_replacement = False).column(0)
+original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels)
+
+def complete_test(t):
+    null_rate_difference = make_array()
+    
+    for i in np.arange(100):
+        
+        shuffled_labels = t.sample(with_replacement = False).column('Condition') # Shuffle the labels
+        t_shuffled = t.drop('Condition').with_column('Condition', shuffled_labels) # Shuffled dataset.
+        summed_t_shuffled = t_shuffled.drop('Age').group('Condition', np.sum) # summed
+        hazard_rate = summed_t_shuffled.column('Died sum')/summed_t_shuffled.column('Participated sum')
+        summed_hazard = summed_t_shuffled.with_column('Hazard Rate', hazard_rate) # add hazard rate
+        one_simulated_statistics = compute_hazard_difference(summed_hazard)
+        null_rate_difference = np.append(null_rate_difference, one_simulated_statistics)
+        
+
+    
+    return p_value
