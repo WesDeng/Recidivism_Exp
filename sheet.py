@@ -14,3 +14,9 @@ resample_1 = our_sample.sample()
 
 left = percentile(2.5, bstrap_medians)
 right = percentile(97.5, bstrap_medians)
+
+# Sample from distribution.
+
+probabilities = make_array(0.5, 0.5)
+proportions = sample_proportions(10, probabilities)
+num_heads = proportions.item(0)*10
