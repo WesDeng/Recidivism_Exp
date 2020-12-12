@@ -25,4 +25,10 @@ num_heads = proportions.item(0)*10
 
 p_value = np.count_nonzero(null_rate_differnece > threshold)/tbl.num_rows
 
-#
+# Shuffled labels.
+
+shuffled_labels = tbl.sample(with_replacement = False).column(0)
+original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels
+
+
+# A/B Testing.
