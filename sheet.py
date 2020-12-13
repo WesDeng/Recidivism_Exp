@@ -2,6 +2,14 @@
 
 us_pop.where('SEX', are.equal_to(0)).where('AGE', are.between(97, 101))
 
+# Getting the name of the item that has the highest value in some attribute.
+
+item_name = tbl.sort('Attribute', descending=True).column('Name').item(0)
+
+# Group Table
+
+
+# Pivot Table
 
 # Bootstrapping:
 # Treat the original sample as if it were the population.
