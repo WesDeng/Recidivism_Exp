@@ -36,7 +36,7 @@ num_heads = proportions.item(0)*10
 
 # Calculate P value
 
-p_value = np.count_nonzero(null_rate_differnece > threshold)/tbl.num_rows
+p_value = np.count_nonzero(test_stats_under_null > observed_statistic)/tbl.num_rows
 
 # Shuffled labels.
 
