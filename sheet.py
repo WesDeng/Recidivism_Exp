@@ -45,3 +45,12 @@ original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels
 
 
 # A/B Testing.
+
+repetitions = 1000
+test_stats = make_array()
+
+for i in np.arange(repetitions):
+    one_stat = simulate_one_stat()
+    test_stats = np.append(test_stats, one_stat)
+
+p_value = np.count_nonzero(test_stats >= observed_statistic)/len(test_stats)
