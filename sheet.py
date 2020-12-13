@@ -13,6 +13,7 @@ tbl_average = tbl.group(make_array('Name', 'item_name'), np.mean).
 
 # Pivot Table
 
+tbl_pivot = tbl.pivot('to_column', 'to_row', 'value', function )
 
 
 # Bootstrapping:
