@@ -8,8 +8,12 @@ item_name = tbl.sort('Attribute', descending=True).column('Name').item(0)
 
 # Group Table
 
+tbl_average = tbl.group(make_array('Name', 'item_name'), np.mean).
+                    select('Name', 'item_name', 'Overall average')
 
 # Pivot Table
+
+
 
 # Bootstrapping:
 # Treat the original sample as if it were the population.
