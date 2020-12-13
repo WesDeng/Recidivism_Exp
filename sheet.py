@@ -15,6 +15,11 @@ tbl_average = tbl.group(make_array('Name', 'item_name'), np.mean).
 
 tbl_pivot = tbl.pivot('to_column', 'to_row', 'value', function )
 
+# Percentage of voting.
+
+single_percentage = np.count_nonzero(bootstrap.column('Vote')
+                                                    == 'Target') / tbl.num_rows
+
 
 # Bootstrapping:
 # Treat the original sample as if it were the population.
@@ -41,7 +46,7 @@ p_value = np.count_nonzero(test_stats_under_null > observed_statistic)/tbl.num_r
 # Shuffled labels.
 
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
-original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels
+original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels)
 
 
 # A/B Testing.
@@ -54,3 +59,21 @@ for i in np.arange(repetitions):
     test_stats = np.append(test_stats, one_stat)
 
 p_value = np.count_nonzero(test_stats >= observed_statistic)/len(test_stats)
+
+
+##### K nearest neighbors classification ######
+
+
+for train_row in train.rows:
+    # For each train_row in the train dataset, calculate the distance.
+    train_row_feature_array = row_to_array(train_row, features)
+    row_distance = distance(test_row_features_array, train_row_feature_array)
+    distances = np.append(distances, row_distance)
+
+# Adding the distances to the original table and get the first k rows.
+
+train_with_distances = train.with_column("Distances", distances)
+nearest_neighbors = train_with_distances.sort("Distances").take(np.arange(K))
+most_common_label = nearest_neighbors.group('school').
+                            sort('count', descending=True).
+                            column('school').item(0)
