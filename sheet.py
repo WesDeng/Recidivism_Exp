@@ -77,3 +77,11 @@ nearest_neighbors = train_with_distances.sort("Distances").take(np.arange(K))
 most_common_label = nearest_neighbors.group('school').
                             sort('count', descending=True).
                             column('school').item(0)
+
+# Usecase of minimize function for regression.
+
+def fitting_function(a, b, c): return None
+
+best = miniminze(fitting_function)
+
+a, b, c= best.item(0), best.item(1), best.item(2)
