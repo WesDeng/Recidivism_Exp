@@ -48,6 +48,9 @@ p_value = np.count_nonzero(test_stats_under_null > observed_statistic)/tbl.num_r
 shuffled_labels = tbl.sample(with_replacement = False).column(0)
 original_and_shuffled = tbl.with_column('Shuffled Label', shuffled_labels)
 
+# sample_proportions
+(100 * sample_proportions * (100, [0.1, 0.5, 0.4])).item(0)
+
 
 # A/B Testing.
 
@@ -85,3 +88,9 @@ def fitting_function(a, b, c): return None
 best = miniminze(fitting_function)
 
 a, b, c= best.item(0), best.item(1), best.item(2)
+
+
+# as the correlation goes up, the SD of the residuals goes down,
+# which makes sense since the residuals are errors and
+# if they are more correlated,
+# then the errors in our predictions will go down.
