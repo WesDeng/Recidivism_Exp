@@ -64,6 +64,25 @@ for i in np.arange(repetitions):
 p_value = np.count_nonzero(test_stats >= observed_statistic)/len(test_stats)
 
 
+# Project 2 complete_test.
+def complete_test(t):
+    null_rate_difference = make_array()
+
+    for i in np.arange(100):
+
+        shuffled_labels = t.sample(with_replacement = False).column('Condition') # Shuffle the labels.
+        t_shuffled = t.drop('Condition').with_column('Condition', shuffled_labels) # Shuffled dataset.
+        summed_t_shuffled = t_shuffled.drop('Age').group('Condition', np.sum) # summed the Conditions.
+        hazard_rate = summed_t_shuffled.column('Died sum')/summed_t_shuffled.column('Participated sum') # Calculate hazard_rate.
+        summed_hazard = summed_t_shuffled.with_column('Hazard Rate', hazard_rate) # add hazard rate.
+        one_simulated_statistics = compute_hazard_difference(summed_hazard)
+        null_rate_difference = np.append(null_rate_difference, one_simulated_statistics)
+
+    p_value = np.count_nonzero(null_rate_difference > death_rate_observed_statistic)/100
+
+    return p_value
+
+
 ##### K nearest neighbors classification ######
 
 
