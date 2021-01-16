@@ -193,12 +193,12 @@ def get_comments(docxFileName, codes_df, code_replace_dict=None):
 
 
 codes_df = pd.DataFrame(columns=["code","subcode","sub_subcode", "name", "text", "coder", "comment_id"])
-files = glob.glob('./discussion/[!~]*.docx')
+files = glob.glob('./[!~]*.docx')
 #files = glob.glob('./k*.docx')
 for fi in files:
-  if 'Room' in fi:
-    print(fi)
-    codes_df = get_comments(fi, codes_df)
+  #if 'Room' in fi:
+  print(fi)
+  codes_df = get_comments(fi, codes_df)
 
 #print codes_df
 codes_df = codes_df.set_index(['code', 'subcode', 'sub_subcode', 'text','name', 'coder']).sort_index()
